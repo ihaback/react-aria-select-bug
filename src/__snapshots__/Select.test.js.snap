@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent generating snapshot for Select 1`] = `
+Array [
+  <div
+    className="react-aria-Select"
+    data-rac=""
+    onBlur={[Function]}
+    onFocus={[Function]}
+  >
+    <span
+      className="react-aria-Label"
+      onClick={[Function]}
+    >
+      Favorite Animal
+    </span>
+    <button
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup="listbox"
+      aria-labelledby="react-aria-:r7:"
+      className="react-aria-Button"
+      data-rac=""
+      id="react-aria-:r2:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchCancel={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      type="button"
+    >
+      <span
+        className="react-aria-SelectValue"
+        data-placeholder={true}
+        data-rac=""
+        id="react-aria-:r7:"
+      >
+        Select an item
+      </span>
+      <span
+        aria-hidden="true"
+      >
+        ▼
+      </span>
+    </button>
+  </div>,
+  <div
+    aria-hidden={true}
+    data-a11y-ignore="aria-hidden-focus"
+    data-testid="hidden-select-container"
+    style={
+      Object {
+        "border": 0,
+        "clip": "rect(0 0 0 0)",
+        "clipPath": "inset(50%)",
+        "height": "1px",
+        "margin": "-1px",
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "absolute",
+        "whiteSpace": "nowrap",
+        "width": "1px",
+      }
+    }
+  >
+    <input
+      onFocus={[Function]}
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+      tabIndex={-1}
+      type="text"
+    />
+    <label>
+      <select
+        onChange={[Function]}
+        tabIndex={-1}
+        value=""
+      >
+        <option />
+      </select>
+    </label>
+  </div>,
+]
+`;
